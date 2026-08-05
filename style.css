@@ -302,6 +302,15 @@ nav{
     color:var(--muted);
 
 }
+    .more{
+
+    margin-top:22px;
+
+    color:var(--accent);
+
+    font-weight:600;
+
+}
 
 }
 }
