@@ -311,6 +311,63 @@ nav{
     font-weight:600;
 
 }
+    summary{
+
+    list-style:none;
+
+    cursor:pointer;
+
+}
+
+summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+.sample{
+
+    margin-top:24px;
+
+    border-top:1px solid var(--border);
+
+    padding-top:24px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    text-align:left;
+
+    padding-bottom:12px;
+
+}
+
+td{
+
+    padding:12px 0;
+
+    border-top:1px solid #f1f1f1;
+
+    vertical-align:top;
+
+}
+
+td:first-child{
+
+    width:45%;
+
+    font-weight:500;
+
+}
 
 }
 }
