@@ -240,3 +240,70 @@ h2{font-size:1.6rem}
     margin-left:auto;
     margin-right:auto;
 }
+.translation-table{
+
+    width:100%;
+
+    border-collapse:separate;
+
+    border-spacing:0;
+
+    margin-top:24px;
+
+    border:1px solid var(--border);
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    table-layout:fixed;
+
+}
+
+.translation-table thead{
+
+    background:var(--accent-soft);
+
+}
+
+.translation-table th{
+
+    padding:14px 18px;
+
+    text-align:left;
+
+    color:var(--accent);
+
+    font-size:.9rem;
+
+    font-weight:700;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.translation-table td{
+
+    width:50%;
+
+    padding:18px;
+
+    vertical-align:top;
+
+    border-bottom:1px solid var(--border);
+
+    line-height:1.7;
+
+}
+
+.translation-table td:first-child{
+
+    border-right:1px solid var(--border);
+
+}
+
+.translation-table tr:last-child td{
+
+    border-bottom:none;
+
+}
