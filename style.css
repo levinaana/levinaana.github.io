@@ -277,6 +277,31 @@ nav{
     gap:8px;
 
 }
+    .stats{
+
+    display:flex;
+
+    gap:48px;
+
+    margin-top:56px;
+
+    flex-wrap:wrap;
+
+}
+
+.stats strong{
+
+    display:block;
+
+    font-size:2rem;
+
+}
+
+.stats span{
+
+    color:var(--muted);
+
+}
 
 }
 }
