@@ -139,5 +139,39 @@ h2{
         flex-direction:column;
         align-items:flex-start;
     }
+nav{
+    position:sticky;
+    top:0;
+    background:rgba(248,250,252,.85);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--border);
+    z-index:100;
+}
 
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:72px;
+}
+
+.logo{
+    font-weight:700;
+    font-size:1.05rem;
+}
+
+.menu{
+    display:flex;
+    gap:32px;
+}
+
+.menu a{
+    color:var(--muted);
+    text-decoration:none;
+    transition:.2s;
+}
+
+.menu a:hover{
+    color:var(--accent);
+}
 }
