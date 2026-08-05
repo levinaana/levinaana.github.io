@@ -241,88 +241,44 @@ h2{font-size:1.6rem}
     margin-right:auto;
 }
 /* ==========================
-   TASK CONTEXT
+   TASK HEADER
 ========================== */
+
+.task-header{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    flex-wrap:wrap;
+    margin-bottom:24px;
+}
 
 .task-context{
-    margin:0 0 10px;
-    font-weight:600;
-    color:var(--text);
-}
-
-.task-context strong{
+    flex:0 0 auto;
+    font-weight:700;
     color:var(--accent);
+    white-space:nowrap;
+    padding-top:6px;
 }
-
-/* ==========================
-   CONTEXT TAGS
-========================== */
 
 .context-tags{
     display:flex;
     flex-wrap:wrap;
     gap:10px;
-    margin:0 0 24px;
+    flex:1;
 }
 
 .context-tags span{
     padding:6px 12px;
+
     border:1px solid var(--accent);
+
     border-radius:999px;
+
     background:transparent;
+
     color:var(--accent);
+
     font-size:.88rem;
+
     font-weight:600;
-}
-
-/* ==========================
-   TRANSLATION TABLE
-========================== */
-
-.translation-table{
-    width:100%;
-    margin-top:24px;
-    border-collapse:separate;
-    border-spacing:0;
-    table-layout:fixed;
-
-    border:1px solid var(--border);
-    border-radius:14px;
-    overflow:hidden;
-}
-
-.translation-table th{
-    width:50%;
-    padding:14px 18px;
-
-    background:var(--accent-soft);
-
-    color:var(--accent);
-    font-size:.9rem;
-    font-weight:700;
-    text-align:left;
-
-    border-bottom:1px solid var(--border);
-}
-
-.translation-table td{
-    width:50%;
-    padding:18px;
-    vertical-align:top;
-    line-height:1.7;
-
-    border-bottom:1px solid var(--border);
-}
-
-/* Центральная разделительная линия */
-
-.translation-table th:first-child,
-.translation-table td:first-child{
-    border-right:1px solid var(--border);
-}
-
-/* Последняя строка */
-
-.translation-table tr:last-child td{
-    border-bottom:none;
 }
