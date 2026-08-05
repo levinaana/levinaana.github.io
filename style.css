@@ -240,85 +240,89 @@ h2{font-size:1.6rem}
     margin-left:auto;
     margin-right:auto;
 }
-.translation-table{
+/* ==========================
+   TASK CONTEXT
+========================== */
 
-    width:100%;
-
-    border-collapse:separate;
-
-    border-spacing:0;
-
-    margin-top:24px;
-
-    border:1px solid var(--border);
-
-    border-radius:14px;
-
-    overflow:hidden;
-
-    table-layout:fixed;
-
+.task-context{
+    margin:0 0 10px;
+    font-weight:600;
+    color:var(--text);
 }
 
-.translation-table thead{
-
-    background:var(--accent-soft);
-
-}
-
-.translation-table th{
-
-    padding:14px 18px;
-
-    text-align:left;
-
+.task-context strong{
     color:var(--accent);
-
-    font-size:.9rem;
-
-    font-weight:700;
-
-    border-bottom:1px solid var(--border);
-
 }
 
-.translation-table td{
+/* ==========================
+   CONTEXT TAGS
+========================== */
 
-    width:50%;
-
-    padding:18px;
-
-    vertical-align:top;
-
-    border-bottom:1px solid var(--border);
-
-    line-height:1.7;
-
-}
-
-.translation-table td:first-child{
-
-    border-right:1px solid var(--border);
-
-}
-
-.translation-table tr:last-child td{
-
-    border-bottom:none;
-
-}
 .context-tags{
     display:flex;
     flex-wrap:wrap;
     gap:10px;
-    margin:12px 0 24px;
+    margin:0 0 24px;
 }
 
 .context-tags span{
-    background:var(--accent-soft);
-    color:var(--accent);
     padding:6px 12px;
+    border:1px solid var(--accent);
     border-radius:999px;
-    font-size:.9rem;
+    background:transparent;
+    color:var(--accent);
+    font-size:.88rem;
     font-weight:600;
+}
+
+/* ==========================
+   TRANSLATION TABLE
+========================== */
+
+.translation-table{
+    width:100%;
+    margin-top:24px;
+    border-collapse:separate;
+    border-spacing:0;
+    table-layout:fixed;
+
+    border:1px solid var(--border);
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.translation-table th{
+    width:50%;
+    padding:14px 18px;
+
+    background:var(--accent-soft);
+
+    color:var(--accent);
+    font-size:.9rem;
+    font-weight:700;
+    text-align:left;
+
+    border-bottom:1px solid var(--border);
+}
+
+.translation-table td{
+    width:50%;
+    padding:18px;
+    vertical-align:top;
+    line-height:1.7;
+
+    border-bottom:1px solid var(--border);
+}
+
+/* Центральная разделительная линия */
+
+.translation-table th:first-child,
+.translation-table td:first-child{
+    border-right:1px solid var(--border);
+}
+
+/* Последняя строка */
+
+.translation-table tr:last-child td{
+    border-bottom:none;
 }
