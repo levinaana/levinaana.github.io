@@ -13,106 +13,113 @@
 
 <header class="site-header">
   <div class="container">
+    <p class="eyebrow">EN → RU Game Localization</p>
     <h1>Anastasiia Levina</h1>
-    <p class="subtitle">Game Localization Translator · English → Russian</p>
-
-    <nav class="tabs">
-      <input type="radio" name="tab" id="home" checked>
-      <input type="radio" name="tab" id="technical">
-      <input type="radio" name="tab" id="portfolio">
-      <input type="radio" name="tab" id="tools">
-      <input type="radio" name="tab" id="contact">
-
-      <div class="tab-buttons">
-        <label for="home">Home</label>
-        <label for="technical">Technical Expertise</label>
-        <label for="portfolio">Portfolio</label>
-        <label for="tools">Tools</label>
-        <label for="contact">Contact</label>
-      </div>
-
-      <div class="tab-content">
-
-        <section class="panel home">
-          <p class="eyebrow">EN → RU Game Localization</p>
-          <h2>Helping games feel native to Russian-speaking players.</h2>
-          <p>
-            I specialize in dialogue, UI, editorial content and subtitles,
-            combining natural language with technical localization best practices.
-          </p>
-          <div class="buttons">
-            <a class="button primary" href="portfolio.pdf">Download PDF</a>
-            <a class="button secondary" href="https://www.linkedin.com/">LinkedIn</a>
-          </div>
-        </section>
-
-        <section class="panel technical">
-          <h2>Technical Expertise</h2>
-          <div class="grid">
-            <article class="skill"><h3>Variables</h3><p>Placeholder and variable handling.</p></article>
-            <article class="skill"><h3>Tags</h3><p>XML, HTML and rich-text preservation.</p></article>
-            <article class="skill"><h3>Character Limits</h3><p>UI and platform constraints.</p></article>
-            <article class="skill"><h3>Style Guides</h3><p>Terminology and consistency.</p></article>
-            <article class="skill"><h3>Subtitles</h3><p>CPS, timing and line length.</p></article>
-            <article class="skill"><h3>Localization QA</h3><p>Accuracy and implementation mindset.</p></article>
-          </div>
-        </section>
-
-        <section class="panel portfolio">
-          <h2>Selected Localization Samples</h2>
-
-          <details open>
-            <summary>Dialogue Localization</summary>
-            <p><strong>Shows:</strong> variables, natural dialogue, character limits.</p>
-            <table>
-              <tr><th>EN</th><th>RU</th></tr>
-              <tr><td>Greetings, %PlayerName%!</td><td>Приветствую, %PlayerName%!</td></tr>
-            </table>
-          </details>
-
-          <details>
-            <summary>UI Localization</summary>
-            <p>Replace with your UI examples.</p>
-          </details>
-
-          <details>
-            <summary>Editorial Localization</summary>
-            <p>Replace with editorial sample.</p>
-          </details>
-
-          <details>
-            <summary>Subtitle Localization</summary>
-            <p>Replace with subtitle sample.</p>
-          </details>
-
-        </section>
-
-        <section class="panel tools">
-          <h2>Tools</h2>
-          <div class="badges">
-            <span>Crowdin</span>
-            <span>Phrase</span>
-            <span>Smartcat</span>
-            <span>Subtitle Edit</span>
-            <span>Google Workspace</span>
-            <span>MS Office</span>
-          </div>
-        </section>
-
-        <section class="panel contact">
-          <h2>Contact</h2>
-          <p>Open to freelance and full-time game localization opportunities.</p>
-          <ul>
-            <li>Email: your@email.com</li>
-            <li>LinkedIn: linkedin.com/in/your-profile</li>
-            <li>Portfolio PDF: portfolio.pdf</li>
-          </ul>
-        </section>
-
-      </div>
-    </nav>
+    <p class="subtitle">
+      Game Localization Translator specializing in dialogue, UI,
+      editorial content and subtitles.
+    </p>
   </div>
 </header>
+
+<nav class="tabs">
+  <div class="container">
+    <button class="tab-button active" data-tab="home">Home</button>
+    <button class="tab-button" data-tab="technical">Technical Expertise</button>
+    <button class="tab-button" data-tab="portfolio">Portfolio</button>
+    <button class="tab-button" data-tab="tools">Tools</button>
+    <button class="tab-button" data-tab="contact">Contact</button>
+  </div>
+</nav>
+
+<main class="container">
+
+<section id="home" class="tab-panel active">
+  <h2>Helping games feel native to Russian-speaking players.</h2>
+  <p>
+    I combine natural translation with technical localization best practices,
+    including variables, tags, character limits and subtitle constraints.
+  </p>
+
+  <div class="buttons">
+    <a class="button primary" href="portfolio.pdf">Download PDF</a>
+    <a class="button secondary" href="https://www.linkedin.com/in/YOURPROFILE">LinkedIn</a>
+  </div>
+</section>
+
+<section id="technical" class="tab-panel">
+  <h2>Technical Expertise</h2>
+  <div class="grid">
+    <article class="card"><h3>Variables</h3><p>Placeholder handling.</p></article>
+    <article class="card"><h3>Tags</h3><p>XML / HTML / rich text.</p></article>
+    <article class="card"><h3>Character Limits</h3><p>UI constraints.</p></article>
+    <article class="card"><h3>Style Guides</h3><p>Terminology consistency.</p></article>
+    <article class="card"><h3>Subtitle Standards</h3><p>CPS, timing, line length.</p></article>
+    <article class="card"><h3>Localization QA</h3><p>Technical accuracy.</p></article>
+  </div>
+</section>
+
+<section id="portfolio" class="tab-panel">
+<h2>Selected Localization Samples</h2>
+
+<details open>
+<summary>Dialogue Localization</summary>
+<p><strong>Shows:</strong> Variables • Natural dialogue • Character limits</p>
+</details>
+
+<details>
+<summary>UI Localization</summary>
+<p>UI sample goes here.</p>
+</details>
+
+<details>
+<summary>Editorial Localization</summary>
+<p>Editorial sample goes here.</p>
+</details>
+
+<details>
+<summary>Subtitle Localization</summary>
+<p>Subtitle sample goes here.</p>
+</details>
+
+</section>
+
+<section id="tools" class="tab-panel">
+<h2>Tools</h2>
+<div class="badges">
+<span>Crowdin</span>
+<span>Phrase</span>
+<span>Smartcat</span>
+<span>Subtitle Edit</span>
+<span>Google Workspace</span>
+<span>MS Office</span>
+</div>
+</section>
+
+<section id="contact" class="tab-panel">
+<h2>Contact</h2>
+<p>Open to freelance and full-time opportunities.</p>
+<ul>
+<li>Email: your@email.com</li>
+<li>LinkedIn: linkedin.com/in/yourprofile</li>
+</ul>
+</section>
+
+</main>
+
+<script>
+const buttons=document.querySelectorAll(".tab-button");
+const panels=document.querySelectorAll(".tab-panel");
+
+buttons.forEach(button=>{
+  button.addEventListener("click",()=>{
+    buttons.forEach(b=>b.classList.remove("active"));
+    panels.forEach(p=>p.classList.remove("active"));
+    button.classList.add("active");
+    document.getElementById(button.dataset.tab).classList.add("active");
+  });
+});
+</script>
 
 </body>
 </html>
