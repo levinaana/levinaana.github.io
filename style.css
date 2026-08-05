@@ -203,4 +203,45 @@ nav{
     font-weight:500;
 
 }
+    .badges{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:14px;
+
+    margin-top:30px;
+
+}
+
+.badges span{
+
+    padding:10px 16px;
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    font-size:.95rem;
+
+}
+
+.contact{
+
+    padding-bottom:120px;
+
+}
+
+.contact p{
+
+    max-width:650px;
+
+    margin-bottom:36px;
+
+    color:var(--muted);
+
+}
 }
